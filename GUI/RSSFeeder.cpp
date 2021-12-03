@@ -6,11 +6,16 @@
 
 #include <QHBoxLayout>
 #include <QVBoxLayout>
+#include <QDebug>
+
+#include <iostream> //raz
+#include "Core/NetworkManager.h"
 
 RSSFeeder::RSSFeeder(QWidget* parent)
     : QWidget(parent)
 {
     setupLayout();
+    setupNetwork();
 }
 
 void RSSFeeder::setupLayout()
@@ -20,8 +25,12 @@ void RSSFeeder::setupLayout()
 
     QPushButton* fetchButton = new QPushButton(this);
     fetchButton->setText("Retrieve");
-    const auto horizontalLayout = new QHBoxLayout;
 
+    connect(fetchButton, &QPushButton::clicked, [this]() {
+        fetchData();
+    });
+
+    const auto horizontalLayout = new QHBoxLayout;
     horizontalLayout->addWidget(m_urlControl);
     horizontalLayout->addWidget(fetchButton);
 
@@ -36,3 +45,14 @@ void RSSFeeder::setupLayout()
     setLayout(mainLayout);
     setMinimumSize(700, 350);
 }
+
+void RSSFeeder::setupNetwork()
+{
+    m_network = new NetworkManager;
+}
+
+void RSSFeeder::fetchData()
+{
+    m_network->performRequest(m_urlControl->text());
+}
+
