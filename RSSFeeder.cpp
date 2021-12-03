@@ -26,10 +26,12 @@ void RSSFeeder::setupLayout()
     horizontalLayout->addWidget(fetchButton);
 
     m_newsTree = new QTreeWidget(this);
+    m_newsTree->setHeaderLabel("News");
 
     const auto mainLayout = new QVBoxLayout;
     mainLayout->addLayout(horizontalLayout);
     mainLayout->addWidget(m_newsTree);
 
     setLayout(mainLayout);
+    setMinimumSize(700, 350);
 }
