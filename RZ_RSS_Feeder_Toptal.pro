@@ -11,11 +11,11 @@ CONFIG += c++14
 SOURCES += \
     Core/NetworkManager.cpp \
     main.cpp \
-    RSSFeeder.cpp
+    GUI/RSSFeeder.cpp
 
 HEADERS += \
     Core/NetworkManager.h \
-    RSSFeeder.h
+    GUI/RSSFeeder.h
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin

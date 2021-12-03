@@ -1,4 +1,4 @@
-#include "RSSFeeder.h"
+#include "GUI/RSSFeeder.h"
 
 #include <QApplication>
 
