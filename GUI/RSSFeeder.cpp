@@ -27,6 +27,7 @@ void RSSFeeder::setupLayout()
 
     m_newsTree = new QTreeWidget(this);
     m_newsTree->setHeaderLabel("News");
+    m_newsTree->setEnabled(false);
 
     const auto mainLayout = new QVBoxLayout;
     mainLayout->addLayout(horizontalLayout);
