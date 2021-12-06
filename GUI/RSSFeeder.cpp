@@ -8,6 +8,7 @@
 #include <QVBoxLayout>
 #include <QNetworkReply>
 #include <QMessageBox>
+#include <QDesktopServices>
 
 #include "Core/NetworkManager.h"
 #include "Core/RSSDataParser.h"
@@ -78,6 +79,10 @@ void RSSFeeder::setupConnections()
     });
 
     connect(m_urlControl, &QLineEdit::textChanged, this, &RSSFeeder::configureFetchButton);
+
+    connect(m_newsTree, &QTreeWidget::itemClicked, this, [](QTreeWidgetItem *item, int column) {
+        QDesktopServices::openUrl(item->data(column, Qt::UserRole).toString());
+    });
 }
 
 void RSSFeeder::fetchData()
