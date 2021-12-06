@@ -6,6 +6,8 @@
 
 #include <QHBoxLayout>
 #include <QVBoxLayout>
+#include <QNetworkReply>
+#include <QMessageBox>
 #include <QDebug>
 
 #include <iostream> //raz
@@ -23,16 +25,17 @@ void RSSFeeder::setupLayout()
     m_urlControl = new QLineEdit(this);
     m_urlControl->setPlaceholderText("Enter RSS Feed url");
 
-    QPushButton* fetchButton = new QPushButton(this);
-    fetchButton->setText("Retrieve");
+    m_fetchButton = new QPushButton(this);
+    m_fetchButton->setText("Retrieve");
+    m_fetchButton->setEnabled(false);
 
-    connect(fetchButton, &QPushButton::clicked, [this]() {
+    connect(m_fetchButton, &QPushButton::clicked, [=]() {
         fetchData();
     });
 
     const auto horizontalLayout = new QHBoxLayout;
     horizontalLayout->addWidget(m_urlControl);
-    horizontalLayout->addWidget(fetchButton);
+    horizontalLayout->addWidget(m_fetchButton);
 
     m_newsTree = new QTreeWidget(this);
     m_newsTree->setHeaderLabel("News");
@@ -44,11 +47,24 @@ void RSSFeeder::setupLayout()
 
     setLayout(mainLayout);
     setMinimumSize(700, 350);
+
+    connect(m_urlControl, &QLineEdit::textChanged, this, &RSSFeeder::configureFetchButton);
 }
 
 void RSSFeeder::setupNetwork()
 {
     m_network = new NetworkManager;
+    QObject::connect(m_network, &NetworkManager::finished,
+            this, [=](QNetworkReply* reply) {
+                if (reply->error()) {
+                    showMessage("Network Error", reply->errorString());
+                    return;
+                }
+
+                QString answer = reply->readAll();
+                qDebug() << answer;
+            }
+        );
 }
 
 void RSSFeeder::fetchData()
@@ -56,3 +72,12 @@ void RSSFeeder::fetchData()
     m_network->performRequest(m_urlControl->text());
 }
 
+void RSSFeeder::showMessage(QString msgTitle, QString msg)
+{
+    QMessageBox::warning(this, msgTitle, msg);
+}
+
+void RSSFeeder::configureFetchButton(QString url)
+{
+    m_fetchButton->setEnabled(!url.isEmpty());
+}

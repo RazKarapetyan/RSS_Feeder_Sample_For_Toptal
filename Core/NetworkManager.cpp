@@ -9,18 +9,10 @@ NetworkManager::NetworkManager()
     m_manager = new QNetworkAccessManager();
 
     QObject::connect(m_manager, &QNetworkAccessManager::finished,
-            this, [](QNetworkReply* reply) {
-
-                if (reply->error()) {
-                    qDebug() << reply->errorString();
-                    return;
-                }
-
-                QString answer = reply->readAll();
-
-                qDebug() << answer;
+            this, [=](QNetworkReply* reply) {
+                emit finished(reply);
             }
-        );
+     );
 }
 
 void NetworkManager::performRequest(QString url)
