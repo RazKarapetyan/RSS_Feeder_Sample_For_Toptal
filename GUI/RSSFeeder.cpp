@@ -41,6 +41,10 @@ void RSSFeeder::setupLayout()
     m_newsTree = new QTreeWidget(this);
     m_newsTree->setHeaderLabel(tr("News"));
     m_newsTree->setEnabled(false);
+    m_newsTree->setStyleSheet("QTreeView::item {"
+                      "padding: 10px;"
+                      "color: Black;"
+                      "}");
 
     const auto mainLayout = new QVBoxLayout;
     mainLayout->addLayout(horizontalLayout);
@@ -111,9 +115,10 @@ void RSSFeeder::showNewsList(const News& news)
     NewsIterator it(news);
     while (it.hasNext())
     {
-        it.next();/*
-        QTreeWidgetItem * item = new QTreeWidgetItem();
+        it.next();
+        QTreeWidgetItem* item = new QTreeWidgetItem();
         item->setText(0, it.key());
-        m_newsTree->addTopLevelItem(item);*/
+        item->setData(0, Qt::UserRole, it.value());
+        m_newsTree->addTopLevelItem(item);
     }
 }

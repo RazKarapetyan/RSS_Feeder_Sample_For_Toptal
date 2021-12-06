@@ -39,6 +39,7 @@
     }
 
     xmlReader->clear();
+    delete xmlReader;
     return availableNews;
 }
 
