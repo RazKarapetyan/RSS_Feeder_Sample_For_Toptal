@@ -29,10 +29,10 @@ RSSFeeder::RSSFeeder(QWidget* parent)
 void RSSFeeder::setupLayout()
 {
     m_urlControl = new QLineEdit(this);
-    m_urlControl->setPlaceholderText("Enter RSS Feed url");
+    m_urlControl->setPlaceholderText(tr("Enter RSS Feed url"));
 
     m_fetchButton = new QPushButton(this);
-    m_fetchButton->setText("Retrieve");
+    m_fetchButton->setText(tr("Retrieve"));
     m_fetchButton->setEnabled(false);
 
     const auto horizontalLayout = new QHBoxLayout;
@@ -40,7 +40,7 @@ void RSSFeeder::setupLayout()
     horizontalLayout->addWidget(m_fetchButton);
 
     m_newsTree = new QTreeWidget(this);
-    m_newsTree->setHeaderLabel("News");
+    m_newsTree->setHeaderLabel(tr("News"));
     m_newsTree->setEnabled(false);
 
     const auto mainLayout = new QVBoxLayout;
@@ -57,7 +57,7 @@ void RSSFeeder::setupNetwork()
     QObject::connect(m_network, &NetworkManager::finished,
             this, [=](QNetworkReply* reply) {
                 if (reply->error()) {
-                    showMessage("Network Error", reply->errorString());
+                    showMessage(tr("Network Error"), reply->errorString());
                     return;
                 }
 
