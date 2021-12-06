@@ -17,6 +17,9 @@ class RSSFeeder : public QWidget
     Q_OBJECT
 
 public:
+    using NewsUrls = QSet<QString>;
+
+public:
     RSSFeeder(QWidget* parent = nullptr);
     ~RSSFeeder() = default;
 
@@ -31,6 +34,8 @@ private:
     void showMessage(QString msgTitle, QString msg);
 
     void fetchData();
+    NewsUrls parseData(const QByteArray& data);
+    void showNewsList(const NewsUrls& urls);
 
 private:
     QLineEdit* m_urlControl;
