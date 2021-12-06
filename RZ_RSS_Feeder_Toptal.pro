@@ -10,11 +10,14 @@ CONFIG += c++17
 
 SOURCES += \
     Core/NetworkManager.cpp \
+    Core/RSSDataParser.cpp \
     main.cpp \
     GUI/RSSFeeder.cpp
 
 HEADERS += \
+    Common/RSSCommon.h \
     Core/NetworkManager.h \
+    Core/RSSDataParser.h \
     GUI/RSSFeeder.h
 
 # Default rules for deployment.

@@ -2,7 +2,8 @@
 #define RSSFEEDER_H
 
 #include <QWidget>
-#include <memory>
+
+#include "Common/RSSCommon.h"
 
 class QLineEdit;
 class QTreeWidget;
@@ -15,9 +16,6 @@ class NetworkManager;
 class RSSFeeder : public QWidget
 {
     Q_OBJECT
-
-public:
-    using NewsUrls = QSet<QString>;
 
 public:
     RSSFeeder(QWidget* parent = nullptr);
@@ -34,7 +32,6 @@ private:
     void showMessage(QString msgTitle, QString msg);
 
     void fetchData();
-    NewsUrls parseData(const QByteArray& data);
     void showNewsList(const NewsUrls& urls);
 
 private:

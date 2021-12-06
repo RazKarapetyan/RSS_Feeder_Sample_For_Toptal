@@ -9,10 +9,9 @@
 #include <QNetworkReply>
 #include <QMessageBox>
 #include <QDebug>
-#include <QXmlStreamReader>
-#include <QSet>
 
 #include "Core/NetworkManager.h"
+#include "Core/RSSDataParser.h"
 
 namespace  {
     constexpr uint WindowMinWidth = 700;
@@ -62,7 +61,7 @@ void RSSFeeder::setupNetwork()
                     return;
                 }
 
-                const auto urls = parseData(reply->readAll());
+                const auto urls = RSSDataParser::Parse(reply->readAll());
                 showNewsList(urls);
             }
         );
@@ -92,36 +91,7 @@ void RSSFeeder::configureFetchButton(QString url)
     m_fetchButton->setEnabled(!url.isEmpty());
 }
 
-RSSFeeder::NewsUrls RSSFeeder::parseData(const QByteArray& data)
-{
-    const auto xmlReader = new QXmlStreamReader(data);
-    NewsUrls availableUrls;
-
-    //Parse the XML until we reach end of it
-    while(!xmlReader->atEnd() && !xmlReader->hasError()) {
-        // Read next element
-        QXmlStreamReader::TokenType token = xmlReader->readNext();
-        //If token is just StartDocument - go to next
-        if(token == QXmlStreamReader::StartDocument) {
-            continue;
-        }
-        //If token is StartElement - read it
-        if(token == QXmlStreamReader::StartElement) {
-            if(xmlReader->name() == "link") {
-                availableUrls << xmlReader->readElementText();
-            }
-        }
-    }
-
-    if(xmlReader->hasError()) {
-        showMessage(tr("Parse error"), xmlReader->errorString());
-    }
-
-    xmlReader->clear();
-    return availableUrls;
-}
-
-void RSSFeeder::showNewsList(const RSSFeeder::NewsUrls& urls)
+void RSSFeeder::showNewsList(const NewsUrls& urls)
 {
     if(urls.isEmpty())
     {
