@@ -7,31 +7,29 @@
     const auto xmlReader = new QXmlStreamReader(data);
     News availableNews;
 
-    //Parse the XML until we reach end of it
     while(!xmlReader->atEnd() && !xmlReader->hasError())
     {
-        // Read next element
-        QXmlStreamReader::TokenType token = xmlReader->readNext();
-        //If token is just StartDocument - go to next
-        if(token == QXmlStreamReader::StartDocument)
+        if (xmlReader->readNextStartElement())
         {
-            continue;
-        }
-        //If token is StartElement - read it
-        if(token == QXmlStreamReader::StartElement)
-        {
-            RSSNewsDescription description {};
-            QString url {};
-            if(xmlReader->name() == "title")
+            if (xmlReader->name() == "item")
             {
-                description = xmlReader->readElementText();
+                RSSNewsDescription description {};
+                QString url {};
+                while(xmlReader->readNextStartElement())
+                {
+                    if(xmlReader->name() == "title")
+                    {
+                        description = xmlReader->readElementText();
+                    } else if(xmlReader->name() == "link")
+                    {
+                        url = xmlReader->readElementText();
+                    } else
+                    {
+                        xmlReader->skipCurrentElement();
+                    }
+                }
+                availableNews.insert(description, url);
             }
-            if(xmlReader->name() == "link")
-            {
-                url = xmlReader->readElementText();
-            }
-
-            qDebug() << "description: " << description << " link: " << url ;
         }
     }
 

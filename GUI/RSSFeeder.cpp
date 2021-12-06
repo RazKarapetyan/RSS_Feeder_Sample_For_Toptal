@@ -115,7 +115,5 @@ void RSSFeeder::showNewsList(const News& news)
         QTreeWidgetItem * item = new QTreeWidgetItem();
         item->setText(0, it.key());
         m_newsTree->addTopLevelItem(item);*/
-
-        qDebug() << "title: " << it.key() << " link: " << it.value();
     }
 }
