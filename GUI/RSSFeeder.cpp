@@ -87,6 +87,9 @@ void RSSFeeder::setupConnections()
 
 void RSSFeeder::fetchData()
 {
+    m_newsTree->clear();
+    m_newsTree->setEnabled(false);
+
     QUrl url = m_urlControl->text();
     if(url.isValid())
     {
@@ -105,6 +108,11 @@ void RSSFeeder::showMessage(QString msgTitle, QString msg)
 void RSSFeeder::configureFetchButton(QString url)
 {
     m_fetchButton->setEnabled(!url.isEmpty());
+    if(url.isEmpty())
+    {
+        m_newsTree->setEnabled(false);
+        m_newsTree->clear();
+    }
 }
 
 void RSSFeeder::showNewsList(const News& news)
