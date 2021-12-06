@@ -16,7 +16,7 @@ public:
     RSSDataParser() = default;
 
 public:
-    static NewsUrls Parse(const QByteArray& data);
+    static News Parse(const QByteArray& data);
 };
 
 #endif // RSSDATAPARSER_H

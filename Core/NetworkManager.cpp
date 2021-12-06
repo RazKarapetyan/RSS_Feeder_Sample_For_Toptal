@@ -8,7 +8,7 @@ NetworkManager::NetworkManager()
 {
     m_manager = new QNetworkAccessManager();
 
-    QObject::connect(m_manager, &QNetworkAccessManager::finished,
+    connect(m_manager, &QNetworkAccessManager::finished,
             this, [=](QNetworkReply* reply) {
                 emit finished(reply);
             }

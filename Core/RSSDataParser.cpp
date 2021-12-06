@@ -1,34 +1,46 @@
 #include "RSSDataParser.h"
 
 #include <QXmlStreamReader>
-#include <QSet>
 
-/*static*/ NewsUrls RSSDataParser::Parse(const QByteArray& data)
+/*static*/ News RSSDataParser::Parse(const QByteArray& data)
 {
     const auto xmlReader = new QXmlStreamReader(data);
-    NewsUrls availableUrls;
+    News availableNews;
 
     //Parse the XML until we reach end of it
-    while(!xmlReader->atEnd() && !xmlReader->hasError()) {
+    while(!xmlReader->atEnd() && !xmlReader->hasError())
+    {
         // Read next element
         QXmlStreamReader::TokenType token = xmlReader->readNext();
         //If token is just StartDocument - go to next
-        if(token == QXmlStreamReader::StartDocument) {
+        if(token == QXmlStreamReader::StartDocument)
+        {
             continue;
         }
         //If token is StartElement - read it
-        if(token == QXmlStreamReader::StartElement) {
-            if(xmlReader->name() == "link") {
-                availableUrls << xmlReader->readElementText();
+        if(token == QXmlStreamReader::StartElement)
+        {
+            RSSNewsDescription description {};
+            QString url {};
+            if(xmlReader->name() == "title")
+            {
+                description = xmlReader->readElementText();
             }
+            if(xmlReader->name() == "link")
+            {
+                url = xmlReader->readElementText();
+            }
+
+            qDebug() << "description: " << description << " link: " << url ;
         }
     }
 
-    if(xmlReader->hasError()) {
-        //showMessage(tr("Parse error"), xmlReader->errorString());
+    if(xmlReader->hasError())
+    {
+        return availableNews;
     }
 
     xmlReader->clear();
-    return availableUrls;
+    return availableNews;
 }
 

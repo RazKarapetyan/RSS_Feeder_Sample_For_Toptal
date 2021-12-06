@@ -3,7 +3,12 @@
 
 #include <QString>
 #include <QSet>
+#include <QDebug>
+#include <QUrl>
 
-using NewsUrls = QSet<QString>;
+// Mapping between description and URL
+using RSSNewsDescription = QString;
+using News = QHash<RSSNewsDescription, QString>;
+using NewsIterator = QHashIterator<RSSNewsDescription, QString>;
 
 #endif // RSSCOMMON_H

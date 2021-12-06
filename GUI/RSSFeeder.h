@@ -32,7 +32,7 @@ private:
     void showMessage(QString msgTitle, QString msg);
 
     void fetchData();
-    void showNewsList(const NewsUrls& urls);
+    void showNewsList(const News& news);
 
 private:
     QLineEdit* m_urlControl;

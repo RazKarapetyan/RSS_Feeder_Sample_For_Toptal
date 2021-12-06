@@ -8,7 +8,6 @@
 #include <QVBoxLayout>
 #include <QNetworkReply>
 #include <QMessageBox>
-#include <QDebug>
 
 #include "Core/NetworkManager.h"
 #include "Core/RSSDataParser.h"
@@ -54,9 +53,10 @@ void RSSFeeder::setupLayout()
 void RSSFeeder::setupNetwork()
 {
     m_network = new NetworkManager;
-    QObject::connect(m_network, &NetworkManager::finished,
+    connect(m_network, &NetworkManager::finished,
             this, [=](QNetworkReply* reply) {
-                if (reply->error()) {
+                if (reply->error())
+                {
                     showMessage(tr("Network Error"), reply->errorString());
                     return;
                 }
@@ -78,7 +78,14 @@ void RSSFeeder::setupConnections()
 
 void RSSFeeder::fetchData()
 {
-    m_network->performRequest(m_urlControl->text());
+    QUrl url = m_urlControl->text();
+    if(url.isValid())
+    {
+        m_network->performRequest(m_urlControl->text());
+    } else
+    {
+        showMessage(tr("Invalid url"), tr("Please enter valid url"));
+    }
 }
 
 void RSSFeeder::showMessage(QString msgTitle, QString msg)
@@ -91,9 +98,9 @@ void RSSFeeder::configureFetchButton(QString url)
     m_fetchButton->setEnabled(!url.isEmpty());
 }
 
-void RSSFeeder::showNewsList(const NewsUrls& urls)
+void RSSFeeder::showNewsList(const News& news)
 {
-    if(urls.isEmpty())
+    if(news.isEmpty())
     {
         showMessage(tr("Parse error"), tr("No news listed in this channel"));
         return;
@@ -101,10 +108,14 @@ void RSSFeeder::showNewsList(const NewsUrls& urls)
 
     m_newsTree->setEnabled(true);
 
-    for(const auto& link : urls)
+    NewsIterator it(news);
+    while (it.hasNext())
     {
+        it.next();/*
         QTreeWidgetItem * item = new QTreeWidgetItem();
-        item->setText(0, link);
-        m_newsTree->addTopLevelItem(item);
+        item->setText(0, it.key());
+        m_newsTree->addTopLevelItem(item);*/
+
+        qDebug() << "title: " << it.key() << " link: " << it.value();
     }
 }
