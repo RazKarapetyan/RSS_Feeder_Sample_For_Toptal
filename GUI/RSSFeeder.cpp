@@ -13,11 +13,17 @@
 #include <iostream> //raz
 #include "Core/NetworkManager.h"
 
+namespace  {
+    constexpr uint WindowMinWidth = 700;
+    constexpr uint WindowMinHeight = 350;
+}
+
 RSSFeeder::RSSFeeder(QWidget* parent)
     : QWidget(parent)
 {
     setupLayout();
     setupNetwork();
+    setupConnections();
 }
 
 void RSSFeeder::setupLayout()
@@ -28,10 +34,6 @@ void RSSFeeder::setupLayout()
     m_fetchButton = new QPushButton(this);
     m_fetchButton->setText("Retrieve");
     m_fetchButton->setEnabled(false);
-
-    connect(m_fetchButton, &QPushButton::clicked, [=]() {
-        fetchData();
-    });
 
     const auto horizontalLayout = new QHBoxLayout;
     horizontalLayout->addWidget(m_urlControl);
@@ -46,9 +48,7 @@ void RSSFeeder::setupLayout()
     mainLayout->addWidget(m_newsTree);
 
     setLayout(mainLayout);
-    setMinimumSize(700, 350);
-
-    connect(m_urlControl, &QLineEdit::textChanged, this, &RSSFeeder::configureFetchButton);
+    setMinimumSize(WindowMinWidth, WindowMinHeight);
 }
 
 void RSSFeeder::setupNetwork()
@@ -67,6 +67,15 @@ void RSSFeeder::setupNetwork()
         );
 }
 
+void RSSFeeder::setupConnections()
+{
+    connect(m_fetchButton, &QPushButton::clicked, [=]() {
+        fetchData();
+    });
+
+    connect(m_urlControl, &QLineEdit::textChanged, this, &RSSFeeder::configureFetchButton);
+}
+
 void RSSFeeder::fetchData()
 {
     m_network->performRequest(m_urlControl->text());
@@ -74,7 +83,7 @@ void RSSFeeder::fetchData()
 
 void RSSFeeder::showMessage(QString msgTitle, QString msg)
 {
-    QMessageBox::warning(this, msgTitle, msg);
+    QMessageBox::critical(this, msgTitle, msg);
 }
 
 void RSSFeeder::configureFetchButton(QString url)

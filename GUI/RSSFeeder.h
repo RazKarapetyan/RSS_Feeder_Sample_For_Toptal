@@ -9,6 +9,9 @@ class QTreeWidget;
 class QPushButton;
 class NetworkManager;
 
+/**
+ * Simple widget listing RSS feed news provided by user
+ */
 class RSSFeeder : public QWidget
 {
     Q_OBJECT
@@ -23,6 +26,7 @@ public slots:
 private:
     void setupLayout();
     void setupNetwork();
+    void setupConnections();
 
     void showMessage(QString msgTitle, QString msg);
 
