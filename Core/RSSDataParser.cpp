@@ -76,6 +76,7 @@ namespace  {
     if(xmlReader->hasError())
     {
         qDebug() << xmlReader->errorString();
+        delete xmlReader;
         return availableNews;
     }
 
@@ -84,9 +85,7 @@ namespace  {
     return availableNews;
 }
 
-#include <QMetaEnum>
-
-/*static*/ bool RSSDataParser::Validate(const QByteArray &data)
+/*static*/ bool RSSDataParser::Validate(const QByteArray& data)
 {
     // RSS XML first start element should be rss
     QXmlStreamReader xmlReader(data);

@@ -58,24 +58,23 @@ void RSSFeeder::setupLayout()
 void RSSFeeder::setupNetwork()
 {
     m_network = new NetworkManager;
-    connect(m_network, &NetworkManager::finished,
-            this, [=](QNetworkReply* reply) {
-                if (reply->error())
-                {
-                    showMessage(tr("Network Error"), reply->errorString());
-                    return;
-                }
+    connect(m_network, &NetworkManager::finished, this, [=](QNetworkReply* reply) {
+        if (reply->error())
+        {
+            showMessage(tr("Network Error"), reply->errorString());
+            return;
+        }
 
-                const auto responeData = reply->readAll();
-                if(bool ok = RSSDataParser::Validate(responeData))
-                {
-                    const auto urls = RSSDataParser::Parse(responeData);
-                    showNewsList(urls);
-                }
-                else
-                {
-                    showMessage(tr("Network Error"), tr("Not an RSS Feed"));
-                }
+        const auto responeData = reply->readAll();
+        if(bool ok = RSSDataParser::Validate(responeData))
+        {
+            const auto urls = RSSDataParser::Parse(responeData);
+            showNewsList(urls);
+        }
+        else
+        {
+            showMessage(tr("Network Error"), tr("Not an RSS Feed"));
+        }
     });
 }
 
