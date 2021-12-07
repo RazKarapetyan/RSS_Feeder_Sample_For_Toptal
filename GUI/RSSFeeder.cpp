@@ -68,8 +68,7 @@ void RSSFeeder::setupNetwork()
 
                 const auto urls = RSSDataParser::Parse(reply->readAll());
                 showNewsList(urls);
-            }
-        );
+    });
 }
 
 void RSSFeeder::setupConnections()
@@ -78,7 +77,7 @@ void RSSFeeder::setupConnections()
         fetchData();
     });
 
-    connect(m_urlControl, &QLineEdit::textChanged, this, &RSSFeeder::configureFetchButton);
+    connect(m_urlControl, &QLineEdit::textChanged, this, &RSSFeeder::configureUIBasedOnUrlInput);
 
     connect(m_newsTree, &QTreeWidget::itemClicked, this, [](QTreeWidgetItem *item, int column) {
         QDesktopServices::openUrl(item->data(column, Qt::UserRole).toString());
@@ -105,7 +104,7 @@ void RSSFeeder::showMessage(QString msgTitle, QString msg)
     QMessageBox::critical(this, msgTitle, msg);
 }
 
-void RSSFeeder::configureFetchButton(QString url)
+void RSSFeeder::configureUIBasedOnUrlInput(QString url)
 {
     m_fetchButton->setEnabled(!url.isEmpty());
     if(url.isEmpty())

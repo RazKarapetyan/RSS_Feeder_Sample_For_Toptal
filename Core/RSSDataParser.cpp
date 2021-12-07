@@ -4,6 +4,8 @@
 
 /*static*/ News RSSDataParser::Parse(const QByteArray& data)
 {
+    qDebug() << data ;
+
     const auto xmlReader = new QXmlStreamReader(data);
     News availableNews;
 

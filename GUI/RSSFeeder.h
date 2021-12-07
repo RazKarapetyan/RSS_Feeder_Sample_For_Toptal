@@ -22,7 +22,7 @@ public:
     ~RSSFeeder() = default;
 
 public slots:
-    void configureFetchButton(QString url);
+    void configureUIBasedOnUrlInput(QString url);
 
 private:
     void setupLayout();
