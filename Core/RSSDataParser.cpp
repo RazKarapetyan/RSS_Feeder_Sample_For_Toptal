@@ -53,10 +53,16 @@ namespace  {
                 {
                     if(xmlReader->name() == "title")
                     {
-                        description = xmlReader->readElementText();
+                        if(description.isEmpty())
+                        {
+                            description = xmlReader->readElementText();
+                        }
                     } else if(xmlReader->name() == "link")
                     {
-                        url = xmlReader->readElementText();
+                        if(url.isEmpty())
+                        {
+                            url = xmlReader->readElementText();
+                        }
                     } else
                     {
                         xmlReader->skipCurrentElement();
@@ -70,7 +76,7 @@ namespace  {
     if(xmlReader->hasError())
     {
         qDebug() << xmlReader->errorString();
-        return News();
+        return availableNews;
     }
 
     xmlReader->clear();
