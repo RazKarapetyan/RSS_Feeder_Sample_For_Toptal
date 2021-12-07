@@ -66,8 +66,16 @@ void RSSFeeder::setupNetwork()
                     return;
                 }
 
-                const auto urls = RSSDataParser::Parse(reply->readAll());
-                showNewsList(urls);
+                const auto responeData = reply->readAll();
+                if(bool ok = RSSDataParser::Validate(responeData))
+                {
+                    const auto urls = RSSDataParser::Parse(responeData);
+                    showNewsList(urls);
+                }
+                else
+                {
+                    showMessage(tr("Network Error"), tr("Not an RSS Feed"));
+                }
     });
 }
 

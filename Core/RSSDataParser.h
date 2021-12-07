@@ -17,6 +17,7 @@ public:
 
 public:
     static News Parse(const QByteArray& data);
+    static bool Validate(const QByteArray& data);
 };
 
 #endif // RSSDATAPARSER_H
