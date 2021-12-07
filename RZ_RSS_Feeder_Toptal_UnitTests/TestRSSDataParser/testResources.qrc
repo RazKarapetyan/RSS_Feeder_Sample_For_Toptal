@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/testData">
+        <file>testParsingData.xml</file>
+        <file>testValidatingDataNonRSS.xml</file>
+        <file>testValidatingDataRSS.xml</file>
+    </qresource>
+</RCC>

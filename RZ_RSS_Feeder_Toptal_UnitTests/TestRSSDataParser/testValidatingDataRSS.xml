@@ -1,0 +1,808 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet title="XSL_formatting" type="text/xsl" href="/shared/bsp/xsl/rss/nolsol.xsl"?>
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:media="http://search.yahoo.com/mrss/">
+    <channel>
+        <title>
+            <![CDATA[BBC News - Home]]>
+        </title>
+        <description>
+            <![CDATA[BBC News - Home]]>
+        </description>
+        <link>https://www.bbc.co.uk/news/</link>
+        <image>
+            <url>https://news.bbcimg.co.uk/nol/shared/img/bbc_news_120x60.gif</url>
+            <title>BBC News - Home</title>
+            <link>https://www.bbc.co.uk/news/</link>
+        </image>
+        <generator>RSS for Node</generator>
+        <lastBuildDate>Tue, 07 Dec 2021 22:07:12 GMT</lastBuildDate>
+        <copyright>
+            <![CDATA[Copyright: (C) British Broadcasting Corporation, see http://news.bbc.co.uk/2/hi/help/rss/4498287.stm for terms and conditions of reuse.]]>
+        </copyright>
+        <language>
+            <![CDATA[en-gb]]>
+        </language>
+        <ttl>15</ttl>
+        <item>
+            <title>
+                <![CDATA[Downing Street party: No 10 staff joked about party amid lockdown restrictions]]>
+            </title>
+            <description>
+                <![CDATA[The video obtained by ITV comes after days of questions about the event that took place last year.]]>
+            </description>
+            <link>https://www.bbc.co.uk/news/uk-politics-59572149?at_medium=RSS&amp;at_campaign=KARANGA</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/uk-politics-59572149</guid>
+            <pubDate>Tue, 07 Dec 2021 21:26:33 GMT</pubDate>
+        </item>
+        <item>
+            <title>
+                <![CDATA[Covid: Early signs Omicron spreads more easily, says No 10]]>
+            </title>
+            <description>
+                <![CDATA[But PM's spokesman says exact impact is yet to be determined, as UK cases of the variant reach 437.]]>
+            </description>
+            <link>https://www.bbc.co.uk/news/uk-59563939?at_medium=RSS&amp;at_campaign=KARANGA</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/uk-59563939</guid>
+            <pubDate>Tue, 07 Dec 2021 19:59:18 GMT</pubDate>
+        </item>
+        <item>
+            <title>
+                <![CDATA[Sturgeon warns of 'rapid' rise in Omicron cases]]>
+            </title>
+            <description>
+                <![CDATA[Scotland's Covid restrictions to be reviewed daily as first minister warns that Omicron is a "significant challenge".]]>
+            </description>
+            <link>https://www.bbc.co.uk/news/uk-scotland-scotland-politics-59566714?at_medium=RSS&amp;at_campaign=KARANGA</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/uk-scotland-scotland-politics-59566714</guid>
+            <pubDate>Tue, 07 Dec 2021 15:32:21 GMT</pubDate>
+        </item>
+        <item>
+            <title>
+                <![CDATA[Afghanistan: Top UK official regrets holiday as country fell to Taliban]]>
+            </title>
+            <description>
+                <![CDATA[Sir Philip Barton says he has "reflected on" his 17-day summer holiday and would not do the same again.]]>
+            </description>
+            <link>https://www.bbc.co.uk/news/uk-59571117?at_medium=RSS&amp;at_campaign=KARANGA</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/uk-59571117</guid>
+            <pubDate>Tue, 07 Dec 2021 20:10:13 GMT</pubDate>
+        </item>
+        <item>
+            <title>
+                <![CDATA[Storm Barra: Weather warnings for most of UK as gales and snow hit]]>
+            </title>
+            <description>
+                <![CDATA[Most of the UK is covered by a yellow weather warning, with wind gusts exceeding 80mph in Wales.]]>
+            </description>
+            <link>https://www.bbc.co.uk/news/uk-59563935?at_medium=RSS&amp;at_campaign=KARANGA</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/uk-59563935</guid>
+            <pubDate>Tue, 07 Dec 2021 18:58:25 GMT</pubDate>
+        </item>
+        <item>
+            <title>
+                <![CDATA[Covid: Omicron appears more transmissible and medics test positive after party]]>
+            </title>
+            <description>
+                <![CDATA[Five things you need to know about the coronavirus pandemic this Tuesday evening.]]>
+            </description>
+            <link>https://www.bbc.co.uk/news/uk-59566538?at_medium=RSS&amp;at_campaign=KARANGA</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/uk-59566538</guid>
+            <pubDate>Tue, 07 Dec 2021 17:40:01 GMT</pubDate>
+        </item>
+        <item>
+            <title>
+                <![CDATA[Grenfell Tower inquiry: Government apologises to victims]]>
+            </title>
+            <description>
+                <![CDATA[The government admits a series of failings in the years leading up to the Grenfell Tower disaster.]]>
+            </description>
+            <link>https://www.bbc.co.uk/news/uk-england-london-59559864?at_medium=RSS&amp;at_campaign=KARANGA</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/uk-england-london-59559864</guid>
+            <pubDate>Tue, 07 Dec 2021 15:13:45 GMT</pubDate>
+        </item>
+        <item>
+            <title>
+                <![CDATA[Jamal Khashoggi: Suspect in murder of journalist arrested in Paris]]>
+            </title>
+            <description>
+                <![CDATA[French media say Khaled Aedh Alotaibi was arrested at Charles-de-Gaulle airport on Tuesday.]]>
+            </description>
+            <link>https://www.bbc.co.uk/news/world-europe-59561881?at_medium=RSS&amp;at_campaign=KARANGA</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-europe-59561881</guid>
+            <pubDate>Tue, 07 Dec 2021 19:49:33 GMT</pubDate>
+        </item>
+        <item>
+            <title>
+                <![CDATA[Sam and Chris Gould: Failures made after twins reported sex abuse]]>
+            </title>
+            <description>
+                <![CDATA[Sam and Chris Gould's parents say the family had been "left in limbo" before the girls' suicides.]]>
+            </description>
+            <link>https://www.bbc.co.uk/news/uk-england-cambridgeshire-59507422?at_medium=RSS&amp;at_campaign=KARANGA</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/uk-england-cambridgeshire-59507422</guid>
+            <pubDate>Tue, 07 Dec 2021 14:56:31 GMT</pubDate>
+        </item>
+        <item>
+            <title>
+                <![CDATA[Ghislaine Maxwell: Jury sees never-before-seen photos of Epstein and defendant]]>
+            </title>
+            <description>
+                <![CDATA[FBI agents submit previously unseen photo evidence as third accuser testifies in Maxwell trial.]]>
+            </description>
+            <link>https://www.bbc.co.uk/news/world-us-canada-59571857?at_medium=RSS&amp;at_campaign=KARANGA</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-us-canada-59571857</guid>
+            <pubDate>Tue, 07 Dec 2021 21:20:10 GMT</pubDate>
+        </item>
+        <item>
+            <title>
+                <![CDATA[Amazon services down for thousands of users]]>
+            </title>
+            <description>
+                <![CDATA[Customers of the e-commerce giant report problems with shopping services, Prime Video and Alexa.]]>
+            </description>
+            <link>https://www.bbc.co.uk/news/business-59568858?at_medium=RSS&amp;at_campaign=KARANGA</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/business-59568858</guid>
+            <pubDate>Tue, 07 Dec 2021 20:55:36 GMT</pubDate>
+        </item>
+        <item>
+            <title>
+                <![CDATA[Archers addict Camilla hosts 70th anniversary reception]]>
+            </title>
+            <description>
+                <![CDATA[Camilla admits she gets "quite ratty" if disturbed while listening to The Archers.]]>
+            </description>
+            <link>https://www.bbc.co.uk/news/uk-england-birmingham-59572564?at_medium=RSS&amp;at_campaign=KARANGA</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/uk-england-birmingham-59572564</guid>
+            <pubDate>Tue, 07 Dec 2021 21:26:19 GMT</pubDate>
+        </item>
+        <item>
+            <title>
+                <![CDATA[Ubisoft NFTs, called 'Digits', launch for in-game items]]>
+            </title>
+            <description>
+                <![CDATA[Game maker Ubisoft is launching its in-game NFT system this week.]]>
+            </description>
+            <link>https://www.bbc.co.uk/news/technology-59568929?at_medium=RSS&amp;at_campaign=KARANGA</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/technology-59568929</guid>
+            <pubDate>Tue, 07 Dec 2021 17:20:47 GMT</pubDate>
+        </item>
+        <item>
+            <title>
+                <![CDATA[Covid testing: New PCR rules throw plans into disarray]]>
+            </title>
+            <description>
+                <![CDATA[Travellers explain how their plans have been disrupted by the new rules for people arriving in the UK.]]>
+            </description>
+            <link>https://www.bbc.co.uk/news/business-59517823?at_medium=RSS&amp;at_campaign=KARANGA</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/business-59517823</guid>
+            <pubDate>Tue, 07 Dec 2021 16:59:51 GMT</pubDate>
+        </item>
+        <item>
+            <title>
+                <![CDATA[Mixed-race family suffered years of racist abuse from neighbours]]>
+            </title>
+            <description>
+                <![CDATA[A family was forced to move from their home, schools and jobs by their neighbours' harassment.]]>
+            </description>
+            <link>https://www.bbc.co.uk/news/uk-england-59312289?at_medium=RSS&amp;at_campaign=KARANGA</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/uk-england-59312289</guid>
+            <pubDate>Tue, 07 Dec 2021 08:59:41 GMT</pubDate>
+        </item>
+        <item>
+            <title>
+                <![CDATA[Edinburgh Zoo's giant pandas to stay another two years]]>
+            </title>
+            <description>
+                <![CDATA[It was thought Yang Guang and Tian Tian would have to return to China because of financial pressures.]]>
+            </description>
+            <link>https://www.bbc.co.uk/news/uk-scotland-edinburgh-east-fife-59562362?at_medium=RSS&amp;at_campaign=KARANGA</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/uk-scotland-edinburgh-east-fife-59562362</guid>
+            <pubDate>Tue, 07 Dec 2021 10:30:31 GMT</pubDate>
+        </item>
+        <item>
+            <title>
+                <![CDATA[Christmas dinner costs rise as inflation bites]]>
+            </title>
+            <description>
+                <![CDATA[Turkeys, sprouts and Christmas puddings are more expensive this year, research suggests.]]>
+            </description>
+            <link>https://www.bbc.co.uk/news/business-59562587?at_medium=RSS&amp;at_campaign=KARANGA</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/business-59562587</guid>
+            <pubDate>Tue, 07 Dec 2021 18:23:42 GMT</pubDate>
+        </item>
+        <item>
+            <title>
+                <![CDATA[Hollywood legend Mel Brooks' autobiography published]]>
+            </title>
+            <description>
+                <![CDATA[Hollywood legend Mel Brooks discusses love, life and bad taste as his autobiography is published.]]>
+            </description>
+            <link>https://www.bbc.co.uk/news/entertainment-arts-59510523?at_medium=RSS&amp;at_campaign=KARANGA</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/entertainment-arts-59510523</guid>
+            <pubDate>Mon, 06 Dec 2021 22:10:16 GMT</pubDate>
+        </item>
+        <item>
+            <title>
+                <![CDATA[Indonesia volcano: BBC reporter surrounded by houses buried in ash]]>
+            </title>
+            <description>
+                <![CDATA[Watch Valdya Baraputri in Indonesia describe the path of destruction from Mount Semeru's eruption.]]>
+            </description>
+            <link>https://www.bbc.co.uk/news/world-59560809?at_medium=RSS&amp;at_campaign=KARANGA</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-59560809</guid>
+            <pubDate>Tue, 07 Dec 2021 11:41:38 GMT</pubDate>
+        </item>
+        <item>
+            <title>
+                <![CDATA[The Scot trekking across Canada to help restore Highland forests]]>
+            </title>
+            <description>
+                <![CDATA[Michael Yellowlees and his Alaskan husky Luna spent nine months travelling coast-to-coast on foot.]]>
+            </description>
+            <link>https://www.bbc.co.uk/news/uk-scotland-59556036?at_medium=RSS&amp;at_campaign=KARANGA</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/uk-scotland-59556036</guid>
+            <pubDate>Mon, 06 Dec 2021 22:53:40 GMT</pubDate>
+        </item>
+        <item>
+            <title>
+                <![CDATA[Ros Atkins on... the No 10 Christmas party denials]]>
+            </title>
+            <description>
+                <![CDATA[Watch as Ros Atkins investigates the gap between government assurances and available evidence.]]>
+            </description>
+            <link>https://www.bbc.co.uk/news/uk-politics-59557906?at_medium=RSS&amp;at_campaign=KARANGA</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/uk-politics-59557906</guid>
+            <pubDate>Mon, 06 Dec 2021 22:50:04 GMT</pubDate>
+        </item>
+        <item>
+            <title>
+                <![CDATA[Mahbouba Seraj: Afghanistan is a country in trouble]]>
+            </title>
+            <description>
+                <![CDATA[Mahbouba Seraj is a prominent Afghan women’s rights activist. She has a personal message for the Taliban.]]>
+            </description>
+            <link>https://www.bbc.co.uk/news/world-asia-59555481?at_medium=RSS&amp;at_campaign=KARANGA</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-asia-59555481</guid>
+            <pubDate>Tue, 07 Dec 2021 00:05:28 GMT</pubDate>
+        </item>
+        <item>
+            <title>
+                <![CDATA[Hong Kong Covid: The Cathay pilots stuck in 'perpetual quarantine']]>
+            </title>
+            <description>
+                <![CDATA[One Cathay Pacific pilot said he had spent almost 150 days in quarantine this year alone.]]>
+            </description>
+            <link>https://www.bbc.co.uk/news/business-59370672?at_medium=RSS&amp;at_campaign=KARANGA</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/business-59370672</guid>
+            <pubDate>Tue, 07 Dec 2021 00:02:16 GMT</pubDate>
+        </item>
+        <item>
+            <title>
+                <![CDATA[Why I celebrated my 40th birthday with 29 hours of spin]]>
+            </title>
+            <description>
+                <![CDATA[Jackie Scully thought she wouldn't reach the age of 40, but did - marking the day with a feat of endurance.]]>
+            </description>
+            <link>https://www.bbc.co.uk/news/uk-england-london-59552929?at_medium=RSS&amp;at_campaign=KARANGA</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/uk-england-london-59552929</guid>
+            <pubDate>Tue, 07 Dec 2021 00:25:16 GMT</pubDate>
+        </item>
+        <item>
+            <title>
+                <![CDATA[The Palestinian jailbreak that rocked Israel]]>
+            </title>
+            <description>
+                <![CDATA[The search for six Palestinian fugitives from an Israeli prison unearths a story of dispossession, violence and bitter division in a fractured region.]]>
+            </description>
+            <link>https://www.bbc.co.uk/news/world-middle-east-59524001?at_medium=RSS&amp;at_campaign=KARANGA</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-middle-east-59524001</guid>
+            <pubDate>Mon, 06 Dec 2021 00:03:02 GMT</pubDate>
+        </item>
+        <item>
+            <title>
+                <![CDATA[James Webb Space Telescope scientist: 'It's the future of astrophysics']]>
+            </title>
+            <description>
+                <![CDATA[The James Webb Space Telescope is expected to be 100 times more powerful than the Hubble.]]>
+            </description>
+            <link>https://www.bbc.co.uk/news/science-environment-59525740?at_medium=RSS&amp;at_campaign=KARANGA</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/science-environment-59525740</guid>
+            <pubDate>Mon, 06 Dec 2021 00:07:27 GMT</pubDate>
+        </item>
+        <item>
+            <title>
+                <![CDATA[BBC 100 Women 2021: Who is on the list this year?]]>
+            </title>
+            <description>
+                <![CDATA[Our most inspiring and influential women of 2021 and how they're making a difference in the world.]]>
+            </description>
+            <link>https://www.bbc.co.uk/news/world-59514598?at_medium=RSS&amp;at_campaign=KARANGA</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-59514598</guid>
+            <pubDate>Tue, 07 Dec 2021 00:11:43 GMT</pubDate>
+        </item>
+        <item>
+            <title>
+                <![CDATA['I had to move across America when I became allergic to the sun']]>
+            </title>
+            <description>
+                <![CDATA[After experiencing an unusual allergic reaction, Carrie moves across America to escape the sun.]]>
+            </description>
+            <link>https://www.bbc.co.uk/news/disability-59404429?at_medium=RSS&amp;at_campaign=KARANGA</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/disability-59404429</guid>
+            <pubDate>Tue, 07 Dec 2021 00:34:27 GMT</pubDate>
+        </item>
+        <item>
+            <title>
+                <![CDATA[Quarantine hotels: Returning Brits struggle to book]]>
+            </title>
+            <description>
+                <![CDATA[Some UK residents coming back from South Africa are still struggling to find quarantine hotel rooms.]]>
+            </description>
+            <link>https://www.bbc.co.uk/news/business-59568558?at_medium=RSS&amp;at_campaign=KARANGA</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/business-59568558</guid>
+            <pubDate>Tue, 07 Dec 2021 16:47:48 GMT</pubDate>
+        </item>
+        <item>
+            <title>
+                <![CDATA[Afghanistan: How many people has the UK evacuated?]]>
+            </title>
+            <description>
+                <![CDATA[The UK government has defended the evacuation from Kabul in August, after criticism from a whistleblower.]]>
+            </description>
+            <link>https://www.bbc.co.uk/news/uk-58245684?at_medium=RSS&amp;at_campaign=KARANGA</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/uk-58245684</guid>
+            <pubDate>Tue, 07 Dec 2021 17:40:06 GMT</pubDate>
+        </item>
+        <item>
+            <title>
+                <![CDATA[Ashes: England in Australia - all you need to know about the 2021-22 series]]>
+            </title>
+            <description>
+                <![CDATA[BBC Sport's guide to all you need to know about the 2021-22 Ashes between England and Australia.]]>
+            </description>
+            <link>https://www.bbc.co.uk/sport/cricket/59491461?at_medium=RSS&amp;at_campaign=KARANGA</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/sport/cricket/59491461</guid>
+            <pubDate>Tue, 07 Dec 2021 12:38:31 GMT</pubDate>
+        </item>
+        <item>
+            <title>
+                <![CDATA[Covid vaccine: Why our black and South Asian friends and family still won't have a jab]]>
+            </title>
+            <description>
+                <![CDATA[Some black and South Asian people say conversations about the vaccine are "frustrating" and "tense".]]>
+            </description>
+            <link>https://www.bbc.co.uk/news/newsbeat-59523439?at_medium=RSS&amp;at_campaign=KARANGA</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/newsbeat-59523439</guid>
+            <pubDate>Tue, 07 Dec 2021 00:35:32 GMT</pubDate>
+        </item>
+        <item>
+            <title>
+                <![CDATA[Landscapers: The surreal suburban murders behind a TV drama]]>
+            </title>
+            <description>
+                <![CDATA[The quietly bizarre murder story has been reimagined into a drama starring Olivia Colman.]]>
+            </description>
+            <link>https://www.bbc.co.uk/news/uk-england-nottinghamshire-58556857?at_medium=RSS&amp;at_campaign=KARANGA</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/uk-england-nottinghamshire-58556857</guid>
+            <pubDate>Tue, 07 Dec 2021 00:41:29 GMT</pubDate>
+        </item>
+        <item>
+            <title>
+                <![CDATA[Juan Jose Florian: Colombia's Para-cycling 'superhero' and his dramatic life story]]>
+            </title>
+            <description>
+                <![CDATA[Juan Jose Florian was forced into armed conflict on the opposite side to family. When a bomb nearly killed him, sport helped heal.]]>
+            </description>
+            <link>https://www.bbc.co.uk/sport/disability-sport/59524921?at_medium=RSS&amp;at_campaign=KARANGA</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/sport/disability-sport/59524921</guid>
+            <pubDate>Tue, 07 Dec 2021 00:00:26 GMT</pubDate>
+        </item>
+        <item>
+            <title>
+                <![CDATA[Amalia: Heir to the Dutch throne keeps it normal at 18]]>
+            </title>
+            <description>
+                <![CDATA[Princess Amalia had an ordinary childhood and wants her life to continue that way.]]>
+            </description>
+            <link>https://www.bbc.co.uk/news/world-europe-59516157?at_medium=RSS&amp;at_campaign=KARANGA</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-europe-59516157</guid>
+            <pubDate>Tue, 07 Dec 2021 00:39:23 GMT</pubDate>
+        </item>
+        <item>
+            <title>
+                <![CDATA[Omicron: Why is Nigeria on the travel red list?]]>
+            </title>
+            <description>
+                <![CDATA[The UK has placed travel restrictions on arrivals from Nigeria and several other African countries - are they fair?]]>
+            </description>
+            <link>https://www.bbc.co.uk/news/59548572?at_medium=RSS&amp;at_campaign=KARANGA</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/59548572</guid>
+            <pubDate>Mon, 06 Dec 2021 17:56:40 GMT</pubDate>
+        </item>
+        <item>
+            <title>
+                <![CDATA[Lara Croft: 25 years of Tomb Raider and a British gaming icon]]>
+            </title>
+            <description>
+                <![CDATA[The team behind Lara Croft talk to Newsbeat about her history and where she goes next.]]>
+            </description>
+            <link>https://www.bbc.co.uk/news/newsbeat-59505737?at_medium=RSS&amp;at_campaign=KARANGA</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/newsbeat-59505737</guid>
+            <pubDate>Tue, 07 Dec 2021 00:40:14 GMT</pubDate>
+        </item>
+        <item>
+            <title>
+                <![CDATA[Care homes: Following the money trail]]>
+            </title>
+            <description>
+                <![CDATA[BBC Panorama unpicks the financial webs behind leading companies, as families ask where their fees go.]]>
+            </description>
+            <link>https://www.bbc.co.uk/news/uk-59504521?at_medium=RSS&amp;at_campaign=KARANGA</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/uk-59504521</guid>
+            <pubDate>Mon, 06 Dec 2021 01:20:31 GMT</pubDate>
+        </item>
+        <item>
+            <title>
+                <![CDATA[Wet Leg, Pink Pantheress and Central Cee make BBC Sound of 2022 list]]>
+            </title>
+            <description>
+                <![CDATA[They're among 10 acts tipped for success in the annual BBC list, previously won by Adele and Celeste.]]>
+            </description>
+            <link>https://www.bbc.co.uk/news/entertainment-arts-59531670?at_medium=RSS&amp;at_campaign=KARANGA</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/entertainment-arts-59531670</guid>
+            <pubDate>Mon, 06 Dec 2021 00:00:13 GMT</pubDate>
+        </item>
+        <item>
+            <title>
+                <![CDATA[AC Milan 1-2 Liverpool: Reds beat Milan for perfect group stage record]]>
+            </title>
+            <description>
+                <![CDATA[Liverpool come from behind to beat AC Milan and finish the Champions League group stage with six wins from six.]]>
+            </description>
+            <link>https://www.bbc.co.uk/sport/football/59553411?at_medium=RSS&amp;at_campaign=KARANGA</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/sport/football/59553411</guid>
+            <pubDate>Tue, 07 Dec 2021 22:01:01 GMT</pubDate>
+        </item>
+        <item>
+            <title>
+                <![CDATA[Man City finish group stage with RB Leipzig defeat as Walker sent off]]>
+            </title>
+            <description>
+                <![CDATA[Kyle Walker is sent off as Manchester City end their Champions League group campaign with defeat by RB Leipzig in a match played without fans because of Covid-19 restrictions.]]>
+            </description>
+            <link>https://www.bbc.co.uk/sport/football/59553872?at_medium=RSS&amp;at_campaign=KARANGA</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/sport/football/59553872</guid>
+            <pubDate>Tue, 07 Dec 2021 20:33:50 GMT</pubDate>
+        </item>
+        <item>
+            <title>
+                <![CDATA[In-play clips, highlights and ball-by-ball commentary - follow the Ashes on the BBC]]>
+            </title>
+            <description>
+                <![CDATA[BBC Sport will bring you live radio, text and in-play highlights of the men's Ashes this winter.]]>
+            </description>
+            <link>https://www.bbc.co.uk/sport/cricket/59443111?at_medium=RSS&amp;at_campaign=KARANGA</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/sport/cricket/59443111</guid>
+            <pubDate>Tue, 07 Dec 2021 12:30:13 GMT</pubDate>
+        </item>
+        <item>
+            <title>
+                <![CDATA[Fury ordered to defend title against fellow Briton Whyte]]>
+            </title>
+            <description>
+                <![CDATA[Tyson Fury is ordered to defend his heavyweight title against British rival Dillian Whyte by the World Boxing Council.]]>
+            </description>
+            <link>https://www.bbc.co.uk/sport/boxing/59568202?at_medium=RSS&amp;at_campaign=KARANGA</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/sport/boxing/59568202</guid>
+            <pubDate>Tue, 07 Dec 2021 21:47:40 GMT</pubDate>
+        </item>
+        <item>
+            <title>
+                <![CDATA[Olesen 'embarrassed and felt horrible' after sexual assault claim]]>
+            </title>
+            <description>
+                <![CDATA[Ryder Cup winner Thorbjorn Olesen says he was "embarrassed and felt horrible" after being accused of drunkenly sexually assaulting a woman on a British Airways flight in 2019.]]>
+            </description>
+            <link>https://www.bbc.co.uk/sport/golf/59569313?at_medium=RSS&amp;at_campaign=KARANGA</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/sport/golf/59569313</guid>
+            <pubDate>Tue, 07 Dec 2021 21:12:55 GMT</pubDate>
+        </item>
+        <item>
+            <title>
+                <![CDATA[Mbappe earns record & Messi scores twice in PSG win over Bruges]]>
+            </title>
+            <description>
+                <![CDATA[Kylian Mbappe becomes the youngest player to reach 30 Champions League goals as Paris St-Germain round off Group A with a win.]]>
+            </description>
+            <link>https://www.bbc.co.uk/sport/football/59571447?at_medium=RSS&amp;at_campaign=KARANGA</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/sport/football/59571447</guid>
+            <pubDate>Tue, 07 Dec 2021 19:45:31 GMT</pubDate>
+        </item>
+        <item>
+            <title>
+                <![CDATA[Malala’s message to an Afghan schoolgirl]]>
+            </title>
+            <description>
+                <![CDATA[Nobel laureate Malala Yousafzai exchanges letters with Rohila, whose education is now on hold.]]>
+            </description>
+            <link>https://www.bbc.co.uk/news/world-59453143?at_medium=RSS&amp;at_campaign=KARANGA</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-59453143</guid>
+            <pubDate>Tue, 07 Dec 2021 00:03:17 GMT</pubDate>
+        </item>
+        <item>
+            <title>
+                <![CDATA[Rebel Wilson on weight loss: I know what it’s like to be invisible]]>
+            </title>
+            <description>
+                <![CDATA[The actress, producer and director opens up about her weight loss, in an exclusive BBC interview.]]>
+            </description>
+            <link>https://www.bbc.co.uk/news/entertainment-arts-59519160?at_medium=RSS&amp;at_campaign=KARANGA</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/entertainment-arts-59519160</guid>
+            <pubDate>Tue, 07 Dec 2021 00:02:38 GMT</pubDate>
+        </item>
+        <item>
+            <title>
+                <![CDATA['I am an Afghan public prosecutor but I can't do the job I love']]>
+            </title>
+            <description>
+                <![CDATA[Afghan public prosecutor Masouma, now in hiding, writes to British barrister Helena Kennedy QC.]]>
+            </description>
+            <link>https://www.bbc.co.uk/news/world-59468099?at_medium=RSS&amp;at_campaign=KARANGA</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-59468099</guid>
+            <pubDate>Tue, 07 Dec 2021 00:44:59 GMT</pubDate>
+        </item>
+        <item>
+            <title>
+                <![CDATA[Helping trans people escape death in their home countries]]>
+            </title>
+            <description>
+                <![CDATA[Iman Le Caire made it her mission to help other trans people flee persecution in hostile countries.]]>
+            </description>
+            <link>https://www.bbc.co.uk/news/world-59454871?at_medium=RSS&amp;at_campaign=KARANGA</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-59454871</guid>
+            <pubDate>Tue, 07 Dec 2021 00:05:08 GMT</pubDate>
+        </item>
+        <item>
+            <title>
+                <![CDATA[The women publicly tortured after being accused of sorcery]]>
+            </title>
+            <description>
+                <![CDATA[Monica fled her home in Papua New Guinea after being accused of killing her father with witchcraft.]]>
+            </description>
+            <link>https://www.bbc.co.uk/news/world-59484100?at_medium=RSS&amp;at_campaign=KARANGA</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-59484100</guid>
+            <pubDate>Tue, 07 Dec 2021 00:22:20 GMT</pubDate>
+        </item>
+        <item>
+            <title>
+                <![CDATA['Play football in the depths of your mind, if only for now']]>
+            </title>
+            <description>
+                <![CDATA[US soccer star Megan Rapinoe writes to a young Afghan footballer who cannot play under the Taliban.]]>
+            </description>
+            <link>https://www.bbc.co.uk/digihub/magazine-59462509?at_medium=RSS&amp;at_campaign=KARANGA</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/digihub/magazine-59462509</guid>
+            <pubDate>Tue, 07 Dec 2021 00:06:16 GMT</pubDate>
+        </item>
+        <item>
+            <title>
+                <![CDATA[Covid passports: How do I get one and when will I need it?]]>
+            </title>
+            <description>
+                <![CDATA[Scotland has expanded its passport scheme to include negative test results.]]>
+            </description>
+            <link>https://www.bbc.co.uk/news/explainers-55718553?at_medium=RSS&amp;at_campaign=KARANGA</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/explainers-55718553</guid>
+            <pubDate>Mon, 06 Dec 2021 11:24:16 GMT</pubDate>
+        </item>
+        <item>
+            <title>
+                <![CDATA[Omicron: What Covid tests do I need if I travel abroad?]]>
+            </title>
+            <description>
+                <![CDATA[There are now pre- and post-arrival tests for travellers to the UK.]]>
+            </description>
+            <link>https://www.bbc.co.uk/news/explainers-52544307?at_medium=RSS&amp;at_campaign=KARANGA</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/explainers-52544307</guid>
+            <pubDate>Tue, 07 Dec 2021 12:00:13 GMT</pubDate>
+        </item>
+        <item>
+            <title>
+                <![CDATA[What are the Covid variants and will vaccines still work?]]>
+            </title>
+            <description>
+                <![CDATA[A new Covid variant has emerged that looks worryingly different to the one vaccines were designed to fight.]]>
+            </description>
+            <link>https://www.bbc.co.uk/news/health-55659820?at_medium=RSS&amp;at_campaign=KARANGA</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/health-55659820</guid>
+            <pubDate>Mon, 06 Dec 2021 09:08:31 GMT</pubDate>
+        </item>
+        <item>
+            <title>
+                <![CDATA[Covid: Who can have a booster jab and how can you get one?]]>
+            </title>
+            <description>
+                <![CDATA[All UK adults will be offered a Covid booster, and 12-15-year-olds will be offered a second jab.]]>
+            </description>
+            <link>https://www.bbc.co.uk/news/health-55045639?at_medium=RSS&amp;at_campaign=KARANGA</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/health-55045639</guid>
+            <pubDate>Tue, 07 Dec 2021 10:18:15 GMT</pubDate>
+        </item>
+        <item>
+            <title>
+                <![CDATA[Covid: What are the social distancing rules across the UK?]]>
+            </title>
+            <description>
+                <![CDATA[Some companies are cancelling Christmas parties over Omicron fears, but what do the rules say?]]>
+            </description>
+            <link>https://www.bbc.co.uk/news/uk-51506729?at_medium=RSS&amp;at_campaign=KARANGA</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/uk-51506729</guid>
+            <pubDate>Fri, 03 Dec 2021 15:43:52 GMT</pubDate>
+        </item>
+        <item>
+            <title>
+                <![CDATA[Covid-19 in the UK: How many coronavirus cases are there in my area?]]>
+            </title>
+            <description>
+                <![CDATA[Explore the data on coronavirus in the UK and find out how many cases there are in your area.]]>
+            </description>
+            <link>https://www.bbc.co.uk/news/uk-51768274?at_medium=RSS&amp;at_campaign=KARANGA</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/uk-51768274</guid>
+            <pubDate>Tue, 07 Dec 2021 17:05:10 GMT</pubDate>
+        </item>
+        <item>
+            <title>
+                <![CDATA[Coronavirus treatments: What progress is being made?]]>
+            </title>
+            <description>
+                <![CDATA[Medical teams around the world are learning which medicines work best against Covid.]]>
+            </description>
+            <link>https://www.bbc.co.uk/news/health-52354520?at_medium=RSS&amp;at_campaign=KARANGA</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/health-52354520</guid>
+            <pubDate>Fri, 03 Dec 2021 13:48:31 GMT</pubDate>
+        </item>
+        <item>
+            <title>
+                <![CDATA[Omicron: How do you detect it?]]>
+            </title>
+            <description>
+                <![CDATA[Swabs from PCR tests can help identify omicron, but genetic analysis is needed to confirm it.]]>
+            </description>
+            <link>https://www.bbc.co.uk/news/health-59460252?at_medium=RSS&amp;at_campaign=KARANGA</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/health-59460252</guid>
+            <pubDate>Tue, 07 Dec 2021 15:04:30 GMT</pubDate>
+        </item>
+        <item>
+            <title>
+                <![CDATA[Is Omicron more harmful than other Covid variants? And other questions]]>
+            </title>
+            <description>
+                <![CDATA[Covid rules have been strengthened in response to concern over the newly-identified Omicron variant.]]>
+            </description>
+            <link>https://www.bbc.co.uk/news/world-asia-china-51176409?at_medium=RSS&amp;at_campaign=KARANGA</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-asia-china-51176409</guid>
+            <pubDate>Wed, 01 Dec 2021 13:33:21 GMT</pubDate>
+        </item>
+        <item>
+            <title>
+                <![CDATA[Omicron: How are Covid rules changing in the UK?]]>
+            </title>
+            <description>
+                <![CDATA[Covid rules are being strengthened in response to the Omicron variant]]>
+            </description>
+            <link>https://www.bbc.co.uk/news/explainers-52530518?at_medium=RSS&amp;at_campaign=KARANGA</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/explainers-52530518</guid>
+            <pubDate>Mon, 06 Dec 2021 09:06:50 GMT</pubDate>
+        </item>
+        <item>
+            <title>
+                <![CDATA[Covid vaccine: How many people are vaccinated in the UK?]]>
+            </title>
+            <description>
+                <![CDATA[A look at the progress made in vaccinating the country's population, as more than 51 million people have received at least one dose.]]>
+            </description>
+            <link>https://www.bbc.co.uk/news/health-55274833?at_medium=RSS&amp;at_campaign=KARANGA</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/health-55274833</guid>
+            <pubDate>Sat, 04 Dec 2021 16:58:02 GMT</pubDate>
+        </item>
+        <item>
+            <title>
+                <![CDATA[New Omicron variant: Are low vaccination rates in South Africa a factor?]]>
+            </title>
+            <description>
+                <![CDATA[Has the slow rollout of vaccines in southern Africa allowed coronavirus mutations to develop?]]>
+            </description>
+            <link>https://www.bbc.co.uk/news/59462647?at_medium=RSS&amp;at_campaign=KARANGA</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/59462647</guid>
+            <pubDate>Fri, 03 Dec 2021 17:57:50 GMT</pubDate>
+        </item>
+        <item>
+            <title>
+                <![CDATA[Omicron: What are England's mask rules now?]]>
+            </title>
+            <description>
+                <![CDATA[Face coverings are a legal requirement again in England in shops and on public transport.]]>
+            </description>
+            <link>https://www.bbc.co.uk/news/health-51205344?at_medium=RSS&amp;at_campaign=KARANGA</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/health-51205344</guid>
+            <pubDate>Thu, 02 Dec 2021 16:57:24 GMT</pubDate>
+        </item>
+        <item>
+            <title>
+                <![CDATA[Omicron: How are pupils being kept Covid-safe?]]>
+            </title>
+            <description>
+                <![CDATA[Secondary pupils in England and Wales are being asked to start wearing masks in school again.]]>
+            </description>
+            <link>https://www.bbc.co.uk/news/education-51643556?at_medium=RSS&amp;at_campaign=KARANGA</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/education-51643556</guid>
+            <pubDate>Tue, 30 Nov 2021 15:12:06 GMT</pubDate>
+        </item>
+        <item>
+            <title>
+                <![CDATA[Omicron: Do travel bans work against new Covid variants?]]>
+            </title>
+            <description>
+                <![CDATA[Is there evidence that travel restrictions help stop the spread of coronavirus?]]>
+            </description>
+            <link>https://www.bbc.co.uk/news/59461861?at_medium=RSS&amp;at_campaign=KARANGA</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/59461861</guid>
+            <pubDate>Mon, 06 Dec 2021 11:06:25 GMT</pubDate>
+        </item>
+        <item>
+            <title>
+                <![CDATA[Covid vaccine: Can US troops be punished for refusing the jabs?]]>
+            </title>
+            <description>
+                <![CDATA[The US military has said that America's 2.1 million soldiers and sailors must all get the vaccine.]]>
+            </description>
+            <link>https://www.bbc.co.uk/news/world-us-canada-59409447?at_medium=RSS&amp;at_campaign=KARANGA</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-us-canada-59409447</guid>
+            <pubDate>Sun, 28 Nov 2021 00:24:59 GMT</pubDate>
+        </item>
+        <item>
+            <title>
+                <![CDATA[‘It’s like hell in here’: The struggle to save Afghanistan's starving babies]]>
+            </title>
+            <description>
+                <![CDATA[Doctors in Afghanistan’s crisis-hit hospitals are caring for their patients in almost impossible conditions.]]>
+            </description>
+            <link>https://www.bbc.co.uk/news/world-asia-59419962?at_medium=RSS&amp;at_campaign=KARANGA</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-asia-59419962</guid>
+            <pubDate>Thu, 02 Dec 2021 00:01:43 GMT</pubDate>
+        </item>
+        <item>
+            <title>
+                <![CDATA[Stanley Menzo: Ajax's former goalkeeper on dealing with racism in Dutch game]]>
+            </title>
+            <description>
+                <![CDATA[Stanley Menzo would encounter racism almost every week on the football pitch. When a young man abused him to his face, he struck back.]]>
+            </description>
+            <link>https://www.bbc.co.uk/sport/football/59462361?at_medium=RSS&amp;at_campaign=KARANGA</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/sport/football/59462361</guid>
+            <pubDate>Thu, 02 Dec 2021 00:01:14 GMT</pubDate>
+        </item>
+        <item>
+            <title>
+                <![CDATA[Migrant crisis: The Channel beaches that host a lethal trade in human hope]]>
+            </title>
+            <description>
+                <![CDATA[The journeys migrants make across the Channel are book-ended with beaches that tell the story of the crisis.]]>
+            </description>
+            <link>https://www.bbc.co.uk/news/world-europe-59419963?at_medium=RSS&amp;at_campaign=KARANGA</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/world-europe-59419963</guid>
+            <pubDate>Sat, 27 Nov 2021 00:30:35 GMT</pubDate>
+        </item>
+        <item>
+            <title>
+                <![CDATA[The ‘cocaine collectors’ retrieving smuggled drugs in Rotterdam]]>
+            </title>
+            <description>
+                <![CDATA[Young criminals are risking their lives to retrieve drugs smuggled into the Netherlands amongst freight arriving from Latin America.]]>
+            </description>
+            <link>https://www.bbc.co.uk/news/stories-59379474?at_medium=RSS&amp;at_campaign=KARANGA</link>
+            <guid isPermaLink="false">https://www.bbc.co.uk/news/stories-59379474</guid>
+            <pubDate>Fri, 26 Nov 2021 01:25:34 GMT</pubDate>
+        </item>
+    </channel>
+</rss>
